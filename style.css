@@ -1,0 +1,61 @@
+        body{
+                padding:0px;
+                margin:0px;
+            }
+            #bigHeading{
+                text-align:center;
+                padding:15px;
+                background:linear-gradient(90deg, #025780, #028069);
+                color:white;
+                font-family: sans-serif;
+                font-size:25px;
+                box-shadow: rgb(0 0 0 / 50%) 0px 1px 8px 3px;
+            }
+            .game_link{
+                  margin:10px;
+                  text-decoration: none;
+            }
+            #games_container{
+                display:flex;
+                flex-wrap:wrap;
+                align-items:center;
+                justify-content:center;
+                font-family: sans-serif;
+            }
+            .game_tile{
+                border:1px solid #98a6a8;
+                border-radius:5px;
+                padding:5px;
+                box-shadow: rgba(6,6,6,0.2) 1px 1px 6px 2px;
+                background:#e9f1f2;
+            }
+            .game_tile img{
+                width:150px;
+                height:150px;
+                border:1px solid #333;
+            }
+            .game_tile figcaption{
+                color:black;
+                padding:5px;
+                text-align:center;
+                
+            }
+            /*-------------
+            footer
+            */
+            
+            footer{
+                display: flex;
+                position: fixed;
+                width:100%;
+                bottom: 0;
+                color: #999999;
+                margin-bottom: 5px;
+                flex-direction: row;
+                justify-content: center;
+            }
+            footer #year{
+                margin-left: 5px;
+                border-left: 1px solid #dd006f;
+                padding-left: 5px;
+            }
