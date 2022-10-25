@@ -200,10 +200,10 @@ Section
 
 section#mainSection{
     display:flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content:center;
     flex-direction: column;
-    height:100%;
+    min-height:100%;
     
 }
 section#mainSection #hpd_padding{
