@@ -184,7 +184,7 @@ header.open_menu #menu{
 }
 /*---------*/
 header #menu #middle{
-   
+   height:100%;
 }
 
 header #menu #bottom{
